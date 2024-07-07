@@ -1,0 +1,36 @@
+ul{
+    display: flex;
+
+}
+li{
+   margin: 10px; 
+}
+/*changer la couleur de la police*/
+#navbar{
+    font-family: roboto;
+    src: url("/roboto/Roboto-Black.ttf")format(ttf);
+}
+/*changer couleur des rubriques*/
+.section1 ul li{display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: blue;
+
+}
+.section2 ul li{display: flex;
+    flex-direction: column;
+text-decoration: aqua;
+background-color: brown;
+}
+.section3 ul li{display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: blueviolet;
+
+}
+.section4 ul li{display: block;
+    flex-direction: column;
+    text-align: center;
+    background-color: red;
+
+}
